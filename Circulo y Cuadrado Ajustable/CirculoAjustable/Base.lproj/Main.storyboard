@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CirculoAjustable" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nkA-Pv-51v">
+                                <rect key="frame" x="30" y="40" width="540" height="540"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Círculo Ajustable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrK-4r-PXM">
+                                        <rect key="frame" x="160" y="0.0" width="220" height="33"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="Qna-6q-rrv"/>
+                                            <constraint firstAttribute="width" constant="220" id="sSV-jT-HrF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gfc-xY-BNG">
+                                        <rect key="frame" x="11" y="53" width="518" height="487"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rIL-a9-26Q">
+                                                <rect key="frame" x="9" y="0.0" width="500" height="29"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="Kdy-GV-6Ju">
+                                                        <rect key="frame" x="0.0" y="0.0" width="53" height="29"/>
+                                                        <animations/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="53" id="IbW-Fq-Rlp"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="1" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="W53-YG-WvM">
+                                                        <rect key="frame" x="61" y="0.0" width="389" height="30"/>
+                                                        <animations/>
+                                                        <connections>
+                                                            <action selector="radioSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="41Q-oM-JAV"/>
+                                                        </connections>
+                                                    </slider>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.94999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="1mj-wo-z8H">
+                                                        <rect key="frame" x="458" y="0.0" width="42" height="29"/>
+                                                        <animations/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="OSO-OV-rSN" customClass="CirculoView" customModule="CirculoAjustable" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="39" width="518" height="448"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstItem="OSO-OV-rSN" firstAttribute="top" secondItem="gfc-xY-BNG" secondAttribute="top" constant="39" id="0Kr-q2-xwO"/>
+                                            <constraint firstItem="OSO-OV-rSN" firstAttribute="leading" secondItem="gfc-xY-BNG" secondAttribute="leading" id="j9C-2P-I8A"/>
+                                            <constraint firstItem="rIL-a9-26Q" firstAttribute="leading" secondItem="gfc-xY-BNG" secondAttribute="leading" constant="9" id="p0P-yY-KPa"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="gfc-xY-BNG" firstAttribute="leading" secondItem="nkA-Pv-51v" secondAttribute="leading" constant="11" id="e9B-A0-Cxx"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="nkA-Pv-51v" secondAttribute="bottom" constant="20" symbolic="YES" id="CyW-S0-v5o"/>
+                            <constraint firstItem="nkA-Pv-51v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Ept-gI-ADN"/>
+                            <constraint firstItem="nkA-Pv-51v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JdY-Be-vjA"/>
+                            <constraint firstItem="nkA-Pv-51v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="MN5-3f-8I3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="RadioSlider" destination="W53-YG-WvM" id="cP4-91-sOD"/>
+                        <outlet property="circuloView" destination="OSO-OV-rSN" id="bNn-En-L9o"/>
+                        <outlet property="radioValue" destination="1mj-wo-z8H" id="fpZ-Ki-MiQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="399"/>
+        </scene>
+    </scenes>
+</document>

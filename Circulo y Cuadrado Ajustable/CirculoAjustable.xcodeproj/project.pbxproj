@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCFC9DBB1BCE389300497603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9DBA1BCE389300497603 /* AppDelegate.swift */; };
+		BCFC9DBD1BCE389300497603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9DBC1BCE389300497603 /* ViewController.swift */; };
+		BCFC9DC01BCE389300497603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFC9DBE1BCE389300497603 /* Main.storyboard */; };
+		BCFC9DC21BCE389300497603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFC9DC11BCE389300497603 /* Assets.xcassets */; };
+		BCFC9DC51BCE389300497603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFC9DC31BCE389300497603 /* LaunchScreen.storyboard */; };
+		BCFC9DD01BCE389300497603 /* CirculoAjustableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9DCF1BCE389300497603 /* CirculoAjustableTests.swift */; };
+		BCFC9DDB1BCE389300497603 /* CirculoAjustableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9DDA1BCE389300497603 /* CirculoAjustableUITests.swift */; };
+		BCFC9DEF1BCE3EE400497603 /* CirculoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9DEE1BCE3EE400497603 /* CirculoView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCFC9DCC1BCE389300497603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFC9DAF1BCE389300497603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFC9DB61BCE389300497603;
+			remoteInfo = CirculoAjustable;
+		};
+		BCFC9DD71BCE389300497603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFC9DAF1BCE389300497603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFC9DB61BCE389300497603;
+			remoteInfo = CirculoAjustable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCFC9DB71BCE389300497603 /* CirculoAjustable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirculoAjustable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFC9DBA1BCE389300497603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCFC9DBC1BCE389300497603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCFC9DBF1BCE389300497603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCFC9DC11BCE389300497603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCFC9DC41BCE389300497603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCFC9DC61BCE389300497603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC9DCB1BCE389300497603 /* CirculoAjustableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirculoAjustableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFC9DCF1BCE389300497603 /* CirculoAjustableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculoAjustableTests.swift; sourceTree = "<group>"; };
+		BCFC9DD11BCE389300497603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC9DD61BCE389300497603 /* CirculoAjustableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirculoAjustableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFC9DDA1BCE389300497603 /* CirculoAjustableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculoAjustableUITests.swift; sourceTree = "<group>"; };
+		BCFC9DDC1BCE389300497603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC9DEE1BCE3EE400497603 /* CirculoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CirculoView.swift; path = ../CirculoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCFC9DB41BCE389300497603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC9DC81BCE389300497603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC9DD31BCE389300497603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCFC9DAE1BCE389300497603 = {
+			isa = PBXGroup;
+			children = (
+				BCFC9DB91BCE389300497603 /* CirculoAjustable */,
+				BCFC9DCE1BCE389300497603 /* CirculoAjustableTests */,
+				BCFC9DD91BCE389300497603 /* CirculoAjustableUITests */,
+				BCFC9DB81BCE389300497603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCFC9DB81BCE389300497603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC9DB71BCE389300497603 /* CirculoAjustable.app */,
+				BCFC9DCB1BCE389300497603 /* CirculoAjustableTests.xctest */,
+				BCFC9DD61BCE389300497603 /* CirculoAjustableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCFC9DB91BCE389300497603 /* CirculoAjustable */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC9DBA1BCE389300497603 /* AppDelegate.swift */,
+				BCFC9DEE1BCE3EE400497603 /* CirculoView.swift */,
+				BCFC9DBC1BCE389300497603 /* ViewController.swift */,
+				BCFC9DBE1BCE389300497603 /* Main.storyboard */,
+				BCFC9DC11BCE389300497603 /* Assets.xcassets */,
+				BCFC9DC31BCE389300497603 /* LaunchScreen.storyboard */,
+				BCFC9DC61BCE389300497603 /* Info.plist */,
+			);
+			path = CirculoAjustable;
+			sourceTree = "<group>";
+		};
+		BCFC9DCE1BCE389300497603 /* CirculoAjustableTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC9DCF1BCE389300497603 /* CirculoAjustableTests.swift */,
+				BCFC9DD11BCE389300497603 /* Info.plist */,
+			);
+			path = CirculoAjustableTests;
+			sourceTree = "<group>";
+		};
+		BCFC9DD91BCE389300497603 /* CirculoAjustableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC9DDA1BCE389300497603 /* CirculoAjustableUITests.swift */,
+				BCFC9DDC1BCE389300497603 /* Info.plist */,
+			);
+			path = CirculoAjustableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCFC9DB61BCE389300497603 /* CirculoAjustable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFC9DDF1BCE389300497603 /* Build configuration list for PBXNativeTarget "CirculoAjustable" */;
+			buildPhases = (
+				BCFC9DB31BCE389300497603 /* Sources */,
+				BCFC9DB41BCE389300497603 /* Frameworks */,
+				BCFC9DB51BCE389300497603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CirculoAjustable;
+			productName = CirculoAjustable;
+			productReference = BCFC9DB71BCE389300497603 /* CirculoAjustable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCFC9DCA1BCE389300497603 /* CirculoAjustableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFC9DE21BCE389300497603 /* Build configuration list for PBXNativeTarget "CirculoAjustableTests" */;
+			buildPhases = (
+				BCFC9DC71BCE389300497603 /* Sources */,
+				BCFC9DC81BCE389300497603 /* Frameworks */,
+				BCFC9DC91BCE389300497603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFC9DCD1BCE389300497603 /* PBXTargetDependency */,
+			);
+			name = CirculoAjustableTests;
+			productName = CirculoAjustableTests;
+			productReference = BCFC9DCB1BCE389300497603 /* CirculoAjustableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCFC9DD51BCE389300497603 /* CirculoAjustableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFC9DE51BCE389300497603 /* Build configuration list for PBXNativeTarget "CirculoAjustableUITests" */;
+			buildPhases = (
+				BCFC9DD21BCE389300497603 /* Sources */,
+				BCFC9DD31BCE389300497603 /* Frameworks */,
+				BCFC9DD41BCE389300497603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFC9DD81BCE389300497603 /* PBXTargetDependency */,
+			);
+			name = CirculoAjustableUITests;
+			productName = CirculoAjustableUITests;
+			productReference = BCFC9DD61BCE389300497603 /* CirculoAjustableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCFC9DAF1BCE389300497603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = UPM;
+				TargetAttributes = {
+					BCFC9DB61BCE389300497603 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BCFC9DCA1BCE389300497603 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BCFC9DB61BCE389300497603;
+					};
+					BCFC9DD51BCE389300497603 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BCFC9DB61BCE389300497603;
+					};
+				};
+			};
+			buildConfigurationList = BCFC9DB21BCE389300497603 /* Build configuration list for PBXProject "CirculoAjustable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCFC9DAE1BCE389300497603;
+			productRefGroup = BCFC9DB81BCE389300497603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCFC9DB61BCE389300497603 /* CirculoAjustable */,
+				BCFC9DCA1BCE389300497603 /* CirculoAjustableTests */,
+				BCFC9DD51BCE389300497603 /* CirculoAjustableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCFC9DB51BCE389300497603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC9DC51BCE389300497603 /* LaunchScreen.storyboard in Resources */,
+				BCFC9DC21BCE389300497603 /* Assets.xcassets in Resources */,
+				BCFC9DC01BCE389300497603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC9DC91BCE389300497603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC9DD41BCE389300497603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCFC9DB31BCE389300497603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC9DBD1BCE389300497603 /* ViewController.swift in Sources */,
+				BCFC9DBB1BCE389300497603 /* AppDelegate.swift in Sources */,
+				BCFC9DEF1BCE3EE400497603 /* CirculoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC9DC71BCE389300497603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC9DD01BCE389300497603 /* CirculoAjustableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFC9DD21BCE389300497603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC9DDB1BCE389300497603 /* CirculoAjustableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCFC9DCD1BCE389300497603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFC9DB61BCE389300497603 /* CirculoAjustable */;
+			targetProxy = BCFC9DCC1BCE389300497603 /* PBXContainerItemProxy */;
+		};
+		BCFC9DD81BCE389300497603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFC9DB61BCE389300497603 /* CirculoAjustable */;
+			targetProxy = BCFC9DD71BCE389300497603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCFC9DBE1BCE389300497603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFC9DBF1BCE389300497603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCFC9DC31BCE389300497603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFC9DC41BCE389300497603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCFC9DDD1BCE389300497603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCFC9DDE1BCE389300497603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCFC9DE01BCE389300497603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CirculoAjustable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.CirculoAjustable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCFC9DE11BCE389300497603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CirculoAjustable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.CirculoAjustable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCFC9DE31BCE389300497603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CirculoAjustableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.CirculoAjustableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CirculoAjustable.app/CirculoAjustable";
+			};
+			name = Debug;
+		};
+		BCFC9DE41BCE389300497603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CirculoAjustableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.CirculoAjustableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CirculoAjustable.app/CirculoAjustable";
+			};
+			name = Release;
+		};
+		BCFC9DE61BCE389300497603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CirculoAjustableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.CirculoAjustableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CirculoAjustable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCFC9DE71BCE389300497603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CirculoAjustableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.CirculoAjustableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CirculoAjustable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCFC9DB21BCE389300497603 /* Build configuration list for PBXProject "CirculoAjustable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC9DDD1BCE389300497603 /* Debug */,
+				BCFC9DDE1BCE389300497603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFC9DDF1BCE389300497603 /* Build configuration list for PBXNativeTarget "CirculoAjustable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC9DE01BCE389300497603 /* Debug */,
+				BCFC9DE11BCE389300497603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCFC9DE21BCE389300497603 /* Build configuration list for PBXNativeTarget "CirculoAjustableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC9DE31BCE389300497603 /* Debug */,
+				BCFC9DE41BCE389300497603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCFC9DE51BCE389300497603 /* Build configuration list for PBXNativeTarget "CirculoAjustableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFC9DE61BCE389300497603 /* Debug */,
+				BCFC9DE71BCE389300497603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCFC9DAF1BCE389300497603 /* Project object */;
+}
